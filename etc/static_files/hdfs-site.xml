@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>hadoop.security.token.service.use_ip</name>
+        <value>false</value>
+    </property>
+    <property>
+        <name>yarn.resourcemanager.principal</name>
+        <value>stratio@DEMO.STRATIO.COM</value>
+    </property>
+    <property>
+        <name>map.reduce.framework.name</name>
+        <value>mesos</value>
+    </property>
+    <property>
+        <name>dfs.namenode.kerberos.principal</name>
+        <value>hdfs/hdfs-namenode1.labs.stratio.com@DEMO.STRATIO.COM</value>
+    </property>
+    <property>
+        <name>dfs.namenode.kerberos.principal.pattern</name>
+        <value>hdfs/*@DEMO.STRATIO.COM</value>
+    </property>
+    <property>
+        <name>dfs.encrypt.data.transfer</name>
+        <value>true</value>
+    </property>
+</configuration>
